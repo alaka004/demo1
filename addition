@@ -3,9 +3,11 @@ include<studio.h>
 include<conio.h>
 void main()
 {
-int a,b,c;
+int a,b,c,d;
 a=10;
 b=20;
 c=a+b;
-printf("The sum of %d and %d is %d",&a,&b,&c);
+d=a-b;
+printf("The sum of %d and %d is %d",a,b,c);
+printf("The difference of %d and %d is %d",a,b,d);
 }
